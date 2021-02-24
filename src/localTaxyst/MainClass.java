@@ -29,6 +29,6 @@ public class MainClass
 		);
 		
 		for(int i = 0; i < dwells.length; i++)
-			System.out.println(dwells[i] + " pays $" + dwells[i].tax() + " per month");
+			System.out.println(dwells[i] + "\nTaxed $" + dwells[i].tax() + " per month");
 	}
 }
